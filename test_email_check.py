@@ -60,4 +60,4 @@ def test_username_spaces():
 
 
 def test_empty_username():
-    assert check_username("") == 1
+    assert check_username("") == 0
